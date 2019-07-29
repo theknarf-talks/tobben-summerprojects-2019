@@ -1,0 +1,19 @@
+{
+  "name": "tobben-summerprojects-2019",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ravendesk build",
+    "dev": "ravendesk dev"
+  },
+  "keywords": [],
+  "author": "Frank Lyder Bredland <fl@nyggen.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@ravendesk/cli": "./packages/ravendesk-cli",
+    "@ravendesk/preset-blog": "./packages/ravendesk-preset-blog",
+    "react-presentation": "./packages/react-presentation"
+  }
+}
