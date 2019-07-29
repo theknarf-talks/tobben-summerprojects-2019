@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "ravendesk build",
-    "dev": "ravendesk dev"
+    "dev": "ravendesk dev",
+    "deploy": "ravendesk build && gh-pages --dist dist"
   },
   "keywords": [],
   "author": "Frank Lyder Bredland <fl@nyggen.com>",
@@ -14,6 +15,7 @@
   "dependencies": {
     "@ravendesk/cli": "./packages/ravendesk-cli",
     "@ravendesk/preset-blog": "./packages/ravendesk-preset-blog",
+    "gh-pages": "^2.0.1",
     "react-presentation": "./packages/react-presentation"
   }
 }
