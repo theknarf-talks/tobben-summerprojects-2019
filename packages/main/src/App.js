@@ -62,7 +62,11 @@ export default () =>
 			</Slide>
 			<Slide>
 				<p>
-					<img src="https://raw.githubusercontent.com/TheKnarf/HeliumAnion/master/logo/HeliumAnion.png" alt="HeliumAnion" />
+					<img 
+						src="https://raw.githubusercontent.com/TheKnarf/HeliumAnion/master/logo/HeliumAnion.png"
+						alt="HeliumAnion"
+						style={{ width: '50vh' }}
+						/>
 				</p>
 				<p><Link href="https://github.com/TheKnarf/heliumanion" /></p>
 			</Slide>
