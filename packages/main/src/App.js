@@ -31,12 +31,14 @@ export default () =>
 				</p>
 				<p><Link href="https://github.com/TheKnarf/isomorphic-jsx" /></p>
 				<p>A JSX to string library</p>
-				<p>Use cases:</p>
-				<ol>
-					<li>Usage with Express.js</li>
-					<li>Static site generator</li>
-					<li>XML</li>
-				</ol>
+				<div>
+					<p>Use cases:</p>
+					<ol style={{ display: 'inline-block', 'text-align': 'left' }}>
+						<li>Usage with Express.js</li>
+						<li>Static site generator</li>
+						<li>XML</li>
+					</ol>
+				</div>
 			</Slide>
 		</Slideset>
 		<Slideset i={2}>
