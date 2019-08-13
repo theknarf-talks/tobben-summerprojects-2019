@@ -1,0 +1,4 @@
+[submodule "packages/react-presentation"]
+	path = packages/react-presentation
+	url = git@github.com:TheKnarf/react-presentation.git
+	branch = master
